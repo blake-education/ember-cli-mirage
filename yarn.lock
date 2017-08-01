@@ -1642,15 +1642,11 @@ commander@2.8.x:
   dependencies:
     graceful-readlink ">= 1.0.0"
 
-commander@2.9.0:
+commander@2.9.0, commander@^2.5.0, commander@^2.6.0:
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.9.0.tgz#9c99094176e12240cb22d6c5146098400fe0f7d4"
   dependencies:
     graceful-readlink ">= 1.0.0"
-
-commander@^2.5.0, commander@^2.6.0:
-  version "2.11.0"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-2.11.0.tgz#157152fd1e7a6c8d98a5b715cf376df928004563"
 
 commoner@~0.10.3:
   version "0.10.8"
@@ -2926,13 +2922,9 @@ extsprintf@1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/extsprintf/-/extsprintf-1.0.2.tgz#e1080e0658e300b06294990cc70e1502235fd550"
 
-fake-xml-http-request@^1.4.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/fake-xml-http-request/-/fake-xml-http-request-1.5.0.tgz#d79602a97043d4d8fea671d5d904af38847b451d"
-
-fake-xml-http-request@^1.6.0:
+"fake-xml-http-request@git+ssh://git@github.com/blake-education/FakeXMLHttpRequest.git#ffc2b9bb9dfacc5bd757be02bc15ba5a6637715b":
   version "1.6.0"
-  resolved "https://registry.yarnpkg.com/fake-xml-http-request/-/fake-xml-http-request-1.6.0.tgz#bd0ac79ae3e2660098282048a12c730a6f64d550"
+  resolved "git+ssh://git@github.com/blake-education/FakeXMLHttpRequest.git#ffc2b9bb9dfacc5bd757be02bc15ba5a6637715b"
 
 faker@^3.0.0:
   version "3.1.0"
@@ -4737,11 +4729,11 @@ preserve@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/preserve/-/preserve-0.2.0.tgz#815ed1f6ebc65926f865b310c0713bcb3315ce4b"
 
-pretender@^1.5.1:
+"pretender@git+ssh://git@github.com/blake-education/pretender.git#d9d443a03515e67d80be185e0d88da05aad77f74":
   version "1.5.1"
-  resolved "https://registry.yarnpkg.com/pretender/-/pretender-1.5.1.tgz#bd9098c03d39c3bc7dcb84a28ee27e096e2e32b8"
+  resolved "git+ssh://git@github.com/blake-education/pretender.git#d9d443a03515e67d80be185e0d88da05aad77f74"
   dependencies:
-    fake-xml-http-request "^1.6.0"
+    fake-xml-http-request "git+ssh://git@github.com/blake-education/FakeXMLHttpRequest.git#ffc2b9bb9dfacc5bd757be02bc15ba5a6637715b"
     route-recognizer "^0.3.3"
 
 printf@^0.2.3:
