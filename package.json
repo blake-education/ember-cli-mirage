@@ -44,7 +44,7 @@
     "exists-sync": "0.0.3",
     "fake-xml-http-request": "git+ssh://git@github.com/blake-education/FakeXMLHttpRequest.git#ffc2b9bb9dfacc5bd757be02bc15ba5a6637715b",
     "faker": "^3.0.0",
-    "pretender": "git+ssh://git@github.com/blake-education/pretender.git#e84aba89f5549a604a63f49ab2b653a47d6388cb",
+    "pretender": "git+ssh://git@github.com/blake-education/pretender.git#d9d443a03515e67d80be185e0d88da05aad77f74",
     "route-recognizer": "^0.2.3"
   },
   "devDependencies": {
